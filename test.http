@@ -1,0 +1,9 @@
+# (http post) - Send email 
+POST http://localhost:8080/send
+Content-Type: application/json
+
+{
+    "to": "test@example.com",
+    "sub": "Test mail",
+    "body": "Hi. I am test email."
+}
